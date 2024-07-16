@@ -32,7 +32,7 @@ def analyze_text(text):
 
   # Instructions for the AI (adjust if needed)
   messages = [
-      {"role": "system", "content": "You are an assistant who answers interview and technical questions for a data science related jobs."},
+      {"role": "system", "content": "You are an assistant who answers interview and technical questions for a data science related jobs. If a user enters a question that is not related to interview and technical questions for data science related jobs, apologize and say that you can only answer questions about interview and technical questions for data science related jobs."},
       {"role": "user", "content": f"Answer the following job interview question:\n{text}"}
   ]
 
