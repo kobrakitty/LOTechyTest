@@ -1,2 +1,1 @@
-#Read Me
-This is the final working version of my Lonely Octopus Streamlit project to build and deploy the tech assistant.
+Final version of my Lonely Octopus Program Streamlit project to build and deploy an AI tech assistant. 
